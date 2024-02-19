@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\firstconsoledemo\\firstconsoledemo.csproj": {}
+    "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\CSHARP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\firstconsoledemo\\firstconsoledemo.csproj": {
+    "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\CSHARP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\firstconsoledemo\\firstconsoledemo.csproj",
-        "projectName": "firstconsoledemo",
-        "projectPath": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\firstconsoledemo\\firstconsoledemo.csproj",
+        "projectUniqueName": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\CSHARP.csproj",
+        "projectName": "CSHARP",
+        "projectPath": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\CSHARP.csproj",
         "packagesPath": "C:\\Users\\alexandarcad01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\firstconsoledemo\\obj\\",
+        "outputPath": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexandarcad01\\AppData\\Roaming\\NuGet\\NuGet.Config"
