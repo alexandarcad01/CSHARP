@@ -1,27 +1,18 @@
-var builder = WebApplication.CreateBuilder(args);
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+int a=10;
+Console.WriteLine(a);
+Console.WriteLine("the given value for a is" +a);
 
-var app = builder.Build();
+//int ,float , double ,string ,char ,long ,boolean ,array
+float b=26.5f;
+Console.WriteLine(b);
+Console.WriteLine("the given value for b is" +b);
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
 
-app.UseHttpsRedirection();
-app.UseStaticFiles();
+double c=10.5d;
+Console.WriteLine(c);
+Console.WriteLine("the given value for c is" +c);
 
-app.UseRouting();
 
-app.UseAuthorization();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
-app.Run();

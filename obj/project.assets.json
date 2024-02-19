@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\WEBAPP\\WEBAPP.csproj",
-      "projectName": "WEBAPP",
-      "projectPath": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\WEBAPP\\WEBAPP.csproj",
+      "projectUniqueName": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\firstconsoledemo\\firstconsoledemo.csproj",
+      "projectName": "firstconsoledemo",
+      "projectPath": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\firstconsoledemo\\firstconsoledemo.csproj",
       "packagesPath": "C:\\Users\\alexandarcad01\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\WEBAPP\\obj\\",
+      "outputPath": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\firstconsoledemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alexandarcad01\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -55,9 +55,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
