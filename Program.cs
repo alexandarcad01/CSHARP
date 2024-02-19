@@ -28,7 +28,7 @@
 //Console.WriteLine(app.GetType());
 
 
-*//int getvalue;
+//int getvalue;
 //getvalue=int.Parse(Console.ReadLine());
 //Console.WriteLine("getvalue");
 //Console.WriteLine("the given value through  console for getvalue  is " + getvalue);

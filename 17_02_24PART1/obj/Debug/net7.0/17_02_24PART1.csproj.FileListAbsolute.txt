@@ -1,0 +1,4 @@
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\obj\Debug\net7.0\17_02_24PART1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\obj\Debug\net7.0\17_02_24PART1.AssemblyInfoInputs.cache
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\obj\Debug\net7.0\17_02_24PART1.AssemblyInfo.cs
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\obj\Debug\net7.0\17_02_24PART1.csproj.CoreCompileInputs.cache
