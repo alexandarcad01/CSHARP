@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\CSHARP.csproj",
-      "projectName": "CSHARP",
-      "projectPath": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\CSHARP.csproj",
+      "projectUniqueName": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\16_02_24\\16_02_24.csproj",
+      "projectName": "16_02_24",
+      "projectPath": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\16_02_24\\16_02_24.csproj",
       "packagesPath": "C:\\Users\\alexandarcad01\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\obj\\",
+      "outputPath": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\16_02_24\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alexandarcad01\\AppData\\Roaming\\NuGet\\NuGet.Config"
