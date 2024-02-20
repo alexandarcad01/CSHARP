@@ -2,3 +2,13 @@ C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\obj\Debug\
 C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\obj\Debug\net7.0\17_02_24PART1.AssemblyInfoInputs.cache
 C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\obj\Debug\net7.0\17_02_24PART1.AssemblyInfo.cs
 C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\obj\Debug\net7.0\17_02_24PART1.csproj.CoreCompileInputs.cache
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\bin\Debug\net7.0\17_02_24PART1.exe
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\bin\Debug\net7.0\17_02_24PART1.deps.json
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\bin\Debug\net7.0\17_02_24PART1.runtimeconfig.json
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\bin\Debug\net7.0\17_02_24PART1.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\bin\Debug\net7.0\17_02_24PART1.pdb
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\obj\Debug\net7.0\17_02_24PART1.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\obj\Debug\net7.0\refint\17_02_24PART1.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\obj\Debug\net7.0\17_02_24PART1.pdb
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\obj\Debug\net7.0\17_02_24PART1.genruntimeconfig.cache
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\17_02_24PART1\obj\Debug\net7.0\ref\17_02_24PART1.dll
