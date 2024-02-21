@@ -1,0 +1,14 @@
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\opertators\bin\Debug\net7.0\opertators.exe
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\opertators\bin\Debug\net7.0\opertators.deps.json
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\opertators\bin\Debug\net7.0\opertators.runtimeconfig.json
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\opertators\bin\Debug\net7.0\opertators.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\opertators\bin\Debug\net7.0\opertators.pdb
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\opertators\obj\Debug\net7.0\opertators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\opertators\obj\Debug\net7.0\opertators.AssemblyInfoInputs.cache
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\opertators\obj\Debug\net7.0\opertators.AssemblyInfo.cs
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\opertators\obj\Debug\net7.0\opertators.csproj.CoreCompileInputs.cache
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\opertators\obj\Debug\net7.0\opertators.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\opertators\obj\Debug\net7.0\refint\opertators.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\opertators\obj\Debug\net7.0\opertators.pdb
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\opertators\obj\Debug\net7.0\opertators.genruntimeconfig.cache
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\opertators\obj\Debug\net7.0\ref\opertators.dll

@@ -1,0 +1,14 @@
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\20_02_24\bin\Debug\net7.0\20_02_24.exe
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\20_02_24\bin\Debug\net7.0\20_02_24.deps.json
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\20_02_24\bin\Debug\net7.0\20_02_24.runtimeconfig.json
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\20_02_24\bin\Debug\net7.0\20_02_24.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\20_02_24\bin\Debug\net7.0\20_02_24.pdb
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\20_02_24\obj\Debug\net7.0\20_02_24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\20_02_24\obj\Debug\net7.0\20_02_24.AssemblyInfoInputs.cache
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\20_02_24\obj\Debug\net7.0\20_02_24.AssemblyInfo.cs
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\20_02_24\obj\Debug\net7.0\20_02_24.csproj.CoreCompileInputs.cache
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\20_02_24\obj\Debug\net7.0\20_02_24.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\20_02_24\obj\Debug\net7.0\refint\20_02_24.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\20_02_24\obj\Debug\net7.0\20_02_24.pdb
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\20_02_24\obj\Debug\net7.0\20_02_24.genruntimeconfig.cache
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\20_02_24\obj\Debug\net7.0\ref\20_02_24.dll
