@@ -1,0 +1,14 @@
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\21_02_24NS\obj\Debug\net7.0\21_02_24NS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\21_02_24NS\obj\Debug\net7.0\21_02_24NS.AssemblyInfoInputs.cache
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\21_02_24NS\obj\Debug\net7.0\21_02_24NS.AssemblyInfo.cs
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\21_02_24NS\obj\Debug\net7.0\21_02_24NS.csproj.CoreCompileInputs.cache
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\21_02_24NS\bin\Debug\net7.0\21_02_24NS.exe
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\21_02_24NS\bin\Debug\net7.0\21_02_24NS.deps.json
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\21_02_24NS\bin\Debug\net7.0\21_02_24NS.runtimeconfig.json
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\21_02_24NS\bin\Debug\net7.0\21_02_24NS.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\21_02_24NS\bin\Debug\net7.0\21_02_24NS.pdb
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\21_02_24NS\obj\Debug\net7.0\21_02_24NS.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\21_02_24NS\obj\Debug\net7.0\refint\21_02_24NS.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\21_02_24NS\obj\Debug\net7.0\21_02_24NS.pdb
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\21_02_24NS\obj\Debug\net7.0\21_02_24NS.genruntimeconfig.cache
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\21_02_24NS\obj\Debug\net7.0\ref\21_02_24NS.dll
