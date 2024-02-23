@@ -1,0 +1,14 @@
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\mytask\bin\Debug\net7.0\mytask.exe
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\mytask\bin\Debug\net7.0\mytask.deps.json
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\mytask\bin\Debug\net7.0\mytask.runtimeconfig.json
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\mytask\bin\Debug\net7.0\mytask.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\mytask\bin\Debug\net7.0\mytask.pdb
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\mytask\obj\Debug\net7.0\mytask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\mytask\obj\Debug\net7.0\mytask.AssemblyInfoInputs.cache
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\mytask\obj\Debug\net7.0\mytask.AssemblyInfo.cs
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\mytask\obj\Debug\net7.0\mytask.csproj.CoreCompileInputs.cache
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\mytask\obj\Debug\net7.0\mytask.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\mytask\obj\Debug\net7.0\refint\mytask.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\mytask\obj\Debug\net7.0\mytask.pdb
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\mytask\obj\Debug\net7.0\mytask.genruntimeconfig.cache
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\mytask\obj\Debug\net7.0\ref\mytask.dll
