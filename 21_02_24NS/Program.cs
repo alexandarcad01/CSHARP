@@ -9,6 +9,8 @@ class Program{
         Console.WriteLine("I have "+kr.getNewspaper());
         Console.WriteLine("I have "+kr.getpoliticalpartyname());
         Console.WriteLine("I have "+kr.getProductioncompany());
+
+        
     }
 }
 }

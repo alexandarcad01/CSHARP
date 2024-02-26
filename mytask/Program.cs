@@ -11,10 +11,19 @@ class program {
 
         cadbatch cb=new cadbatch();
         Console.WriteLine("Hi I am Dr.Pavithra IT kulumani");
-        Console.WriteLine("programing languages "+cb.getprograming languages());
-        Console.WriteLine("students"+cb.getstudents());
+        Console.WriteLine("programing languages "+cb.getprograminglanguages());
+        Console.WriteLine("students "+cb.getstudents());
         Console.WriteLine("Trainer "+cb.gettrainer());
-        Console.WriteLine("total time hours "+cb.gettotal time hours());
+        Console.WriteLine("total time hours "+cb.gettotaltimehours());
+
+         students st=new students();
+        Console.WriteLine("Hi I am Dr.Pavithra IT kulumani");
+        Console.WriteLine("genders: "+st.getgenders());
+        Console.WriteLine("students names: "+st.getstudentsnames());
+       Console.WriteLine("startingtime: "+st.getstartingtime());
+        Console.WriteLine("closingtime: "+st.getclosingtime());
+        Console.WriteLine("Trainer: "+st.gettrainer());
+        Console.WriteLine("sessions: "+st.getsessions());
         
 }
 }
