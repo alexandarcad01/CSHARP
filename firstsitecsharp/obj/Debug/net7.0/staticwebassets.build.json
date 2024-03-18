@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6PGOL9+R8XdxNpzAQwaz9O6X6e1JmzuR0yeOlZolCsw=",
+  "Hash": "APeWWVZQhs+AxKEuCZ9c2Mizmg9FLAVv/r4vuXFRXsg=",
   "Source": "firstsitecsharp",
   "BasePath": "_content/firstsitecsharp",
   "Mode": "Default",
@@ -51,6 +51,40 @@
       "OriginalItemSpec": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\firstsitecsharp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\firstsitecsharp.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\firstsitecsharp\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "firstsitecsharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\firstsitecsharp\\wwwroot\\",
+      "BasePath": "_content/firstsitecsharp",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\firstsitecsharp\\wwwroot\\css\\font-awesome.min.css",
+      "SourceId": "firstsitecsharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\firstsitecsharp\\wwwroot\\",
+      "BasePath": "_content/firstsitecsharp",
+      "RelativePath": "css/font-awesome.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\font-awesome.min.css"
+    },
+    {
       "Identity": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\firstsitecsharp\\wwwroot\\css\\site.css",
       "SourceId": "firstsitecsharp",
       "SourceType": "Discovered",
@@ -66,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\firstsitecsharp\\wwwroot\\css\\style.css",
+      "SourceId": "firstsitecsharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\firstsitecsharp\\wwwroot\\",
+      "BasePath": "_content/firstsitecsharp",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\firstsitecsharp\\wwwroot\\favicon.ico",

@@ -27,7 +27,7 @@ public class HomeController : Controller
     {
         return View();
     }
-    public IActionResult Brandstore()
+    public IActionResult store()
     {
         return View();
     }
@@ -38,6 +38,11 @@ public class HomeController : Controller
     }
 
      public IActionResult Privacy()
+    {
+        return View();
+    }
+
+    public IActionResult aboutus()
     {
         return View();
     }

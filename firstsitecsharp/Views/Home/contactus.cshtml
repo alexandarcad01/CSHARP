@@ -1,13 +1,26 @@
-@{
-    ViewData["Title"] = "Contact us";
-}
-
-<p style="font-size: 25px;">Contactu us under construction</p>
-<div class="container">
-    <h1>Contact Us</h1>
-    <p>We're here to help you!</p>
-    <p>Feel free to reach out to us for any queries or assistance.</p>
-    <p>Email: info@example.com</p>
-    <p>Phone: +1234567890</p>
-    <p>Address: 123 Main Street, City, Country</p>
-</div>
+<h1>Contact Form</h1>
+        <form id="contact_form" name="contact_form" method="post" >
+            <div class="mb-3">
+              <label for="email_addr">Email address</label>
+              <input type="email" required maxlength="50" class="form-control" 
+              id="email_addr" name="email" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="name_input">Name</label>
+              <input type="text" required maxlength="50" class="form-control" 
+              id="name_input" name="name" placeholder="Name">
+            </div>            
+            <div class="mb-3">
+                <label for="phone_input">Phone</label>
+                <input type="tel" required maxlength="50" class="form-control" 
+                id="phone_input" name="Phone" placeholder="Phone">
+              </div> 
+            <div class="mb-3">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+            </div>
+          <div class="my-4">
+          <div class="g-recaptcha" data-sitekey="6LchOyEUAAAAAPo9l0WmIgFkGu5D6Gyq-MjsIHS1"></div>
+          </div>
+            <button type="submit" class="btn btn-primary px-4">Send</button>
+          </form>
