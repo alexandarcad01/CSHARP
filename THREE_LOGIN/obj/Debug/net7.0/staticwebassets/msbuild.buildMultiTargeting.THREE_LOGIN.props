@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\THREE_LOGIN.props" />
+</Project>
