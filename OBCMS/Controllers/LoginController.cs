@@ -43,9 +43,9 @@ public class LoginController : Controller
         conStr();
         con.Open();
         cmd.Connection=con;
-        cmd.CommandText="select * from tbl_login where username=@uname and password=@pass";
-        cmd.Parameters.AddWithValue("@uname", lmodel.username);
-        cmd.Parameters.AddWithValue("@pass", lmodel.password);
+        cmd.CommandText="select * from OBCMS_USER_LOGIN where Username=@uname and Password=@pass";
+        cmd.Parameters.AddWithValue("@uname", lmodel.Username);
+        cmd.Parameters.AddWithValue("@pass", lmodel.Password);
 
         dr=cmd.ExecuteReader();
 
@@ -59,10 +59,10 @@ public class LoginController : Controller
          
 
 
-            if(jobrolecheck=="trainer")
+            if(jobrolecheck=="Branchhead")
             {
                 
-            return RedirectToAction("Dashboard","Trainer");
+            return RedirectToAction("Dashboard","Branchhead");
             }
             else if(jobrolecheck=="admin"){
                 
@@ -81,13 +81,13 @@ public class LoginController : Controller
         else{
               
                 dr.Close();
-                cmd.CommandText="select * from tbl_reg_users where user_name=@u_name and password=@_pass";
-                cmd.Parameters.AddWithValue("@u_name", lmodel.username);
-                cmd.Parameters.AddWithValue("@_pass", lmodel.password);
+                cmd.CommandText="select * from OBCMS_USER_LOGIN where Username=@u_name and Password=@_pass";
+                cmd.Parameters.AddWithValue("@u_name", lmodel.Username);
+                cmd.Parameters.AddWithValue("@_pass", lmodel.Password);
                 dr=cmd.ExecuteReader();
                 if(dr.Read()){
                     con.Close();
-                    return RedirectToAction("Dashboard","Trainee");
+                    return RedirectToAction("Dashboard","Customer");
                 }
                 else{
                     con.Close();
@@ -107,7 +107,7 @@ public class LoginController : Controller
 
 
     void conStr(){
-         con.ConnectionString="data source=192.168.1.240\\SQLEXPRESS; database=tmys; User ID=CADBATCH01; Password=CAD@123pass; TrustServerCertificate=True; ";
+         con.ConnectionString="data source=192.168.1.240\\SQLEXPRESS; database=CAD_OBCMS; User ID=CADBATCH01; Password=CAD@123pass; TrustServerCertificate=True; ";
     }
     
     [HttpPost]
@@ -131,12 +131,15 @@ public class LoginController : Controller
         conStr();
         con.Open();
         cmd.Connection=con;
-        cmd.CommandText="insert into tbl_reg_users(full_name,user_name ,email_id,contact_number,password) values (@fullname,@username,@email,@contactnumber,@password) ";
-        cmd.Parameters.AddWithValue("@fullname",rmodel.FullName);
-        cmd.Parameters.AddWithValue("@username",rmodel.UserName);
-        cmd.Parameters.AddWithValue("@email",rmodel.Email);
-        cmd.Parameters.AddWithValue("@contactnumber",rmodel.ContactNumber);
-        cmd.Parameters.AddWithValue("@password",rmodel.Password);
+        cmd.CommandText="insert into tbl_reg_users(full_name,user_name ,email_id,contact_number,password) values (@firstname,@username,@email,@contactnumber,@password) ";
+        cmd.Parameters.AddWithValue("@firstname",rmodel.FIRST_NAME);
+        cmd.Parameters.AddWithValue("@lastname",rmodel.LAST_NAME);
+        cmd.Parameters.AddWithValue("@username",rmodel.USER_NAME);
+        cmd.Parameters.AddWithValue("@password",rmodel.PASSWORD);
+        cmd.Parameters.AddWithValue("@confirmpassword",rmodel.CONFIRM_PASSWORD);
+        cmd.Parameters.AddWithValue("@email",rmodel.EMAIL);
+        cmd.Parameters.AddWithValue("@phonenumber",rmodel.PHONENUMBER);
+        cmd.Parameters.AddWithValue("@accounttype",rmodel.ACCOUNT_TYPE);
 
         int rowAffected=cmd.ExecuteNonQuery();
         if(rowAffected>0){
