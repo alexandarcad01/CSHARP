@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace brightskills.Controllers
+namespace OBCMS.Controllers
 {
     [Route("[controller]")]
     public class AdminController : Controller
@@ -25,15 +25,15 @@ namespace brightskills.Controllers
         }
         public IActionResult ManageCustomer()
         {
-            return View("ManageCourses", "_LayoutAdmin");
+            return View("ManageCustomer", "_LayoutAdmin");
         }
         public IActionResult ManageDevicePrice()
         {
-            return View("ManageSessions", "_LayoutAdmin");
+            return View("ManageDevicePrice", "_LayoutAdmin");
         }
         public IActionResult ManageUsers()
         {
-            return View("ManageUsers", "_LayoutAdmin");
+            return View(" ManageUsers", "_LayoutAdmin");
         }
         public IActionResult Reports()
         {

@@ -32,25 +32,25 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="ManageUsers">ManageUsers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="ManageCustomer">ManageCustomer</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Reports">Reports</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="ManageCustomer">ManageCustomer</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Settings">Settings</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div>
+        
             @RenderBody()
-        </main>
+    
     </div>
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - OBCMS - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2024 - OBCMS - <a asp-area="" asp-controller="Dashboard" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

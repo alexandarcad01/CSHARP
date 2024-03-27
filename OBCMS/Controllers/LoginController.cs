@@ -1,6 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using brightskills.Models;
+using OBCMS.Models;
 using Microsoft.Data.SqlClient;
 
 namespace OBCMS.Controllers;
@@ -10,6 +10,7 @@ public class LoginController : Controller
     SqlConnection con=new SqlConnection();
     SqlCommand cmd=new SqlCommand();
     SqlDataReader? dr;
+
     private readonly ILogger<LoginController> _logger;
 
     public LoginController(ILogger<LoginController> logger)
@@ -37,7 +38,10 @@ public class LoginController : Controller
         return View();
     }
 
-
+      void conStr(){
+         con.ConnectionString="data source=192.168.1.240\\SQLEXPRESS; database=CAD_OBCMS; User ID=CADBATCH01; Password=CAD@123pass; TrustServerCertificate=True; ";
+    }
+    
      public IActionResult VerifyLogin(LoginModel lmodel)
     {
         conStr();
@@ -106,12 +110,12 @@ public class LoginController : Controller
     }
 
 
-    void conStr(){
+    void conStr1(){
          con.ConnectionString="data source=192.168.1.240\\SQLEXPRESS; database=CAD_OBCMS; User ID=CADBATCH01; Password=CAD@123pass; TrustServerCertificate=True; ";
     }
     
     [HttpPost]
-     public IActionResult RegisterDB(RegisterModel rmodel)
+     public IActionResult Register(RegisterModel rmodel)
     {   // // Method 01
         // conStr();
         // con.Open();
@@ -128,10 +132,10 @@ public class LoginController : Controller
 
 
         //Method 02
-        conStr();
+        conStr1();
         con.Open();
         cmd.Connection=con;
-        cmd.CommandText="insert into tbl_reg_users(full_name,user_name ,email_id,contact_number,password) values (@firstname,@username,@email,@contactnumber,@password) ";
+        cmd.CommandText="insert into OBCMS_USER_REG(FIRST_NAME,LAST_NAME,USER_NAME,PASSWORD,CONFIRM_PASSWORD,EMAIL,PHONENUMBER,ACCOUNT_TYPE) values (@firstname,@lastname,@username,@password,@confirmpassword,@email,@phonenumber,@accounttype) ";
         cmd.Parameters.AddWithValue("@firstname",rmodel.FIRST_NAME);
         cmd.Parameters.AddWithValue("@lastname",rmodel.LAST_NAME);
         cmd.Parameters.AddWithValue("@username",rmodel.USER_NAME);

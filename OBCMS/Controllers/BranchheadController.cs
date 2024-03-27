@@ -25,23 +25,23 @@ namespace OBCMS.Controllers
         }
         public IActionResult MyDevice()
         {
-            return View("MyCourses", "_LayoutBranchhead");
+            return View("MyDevice", "_LayoutBranchhead");
         }
         public IActionResult DevicePrice()
         {
-            return View("ScheduleSessions", "_LayoutBranchhead");
+            return View("DevicePrice", "_LayoutBranchhead");
         }
         public IActionResult ManageCustomer()
         {
-            return View("ManageTrainees", "_LayoutBranchhead");
+            return View("ManageCustomer", "_LayoutBranchhead");
         }
         public IActionResult Feedback()
         {
-            return View("Grades", "_LayoutBranchhead");
+            return View("Feedback", "_LayoutBranchhead");
         }
         public IActionResult DeviceInfo()
         {
-            return View("Resources", "_LayoutBranchhead");
+            return View("DeviceInfo", "_LayoutBranchhead");
         }
        
 

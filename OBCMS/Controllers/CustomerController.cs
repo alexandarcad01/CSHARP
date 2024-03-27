@@ -1,6 +1,7 @@
-
-
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using OBCMS.Models;
+using Microsoft.Data.SqlClient;
 
 namespace OBCMS.Controllers
 {
@@ -12,17 +13,17 @@ namespace OBCMS.Controllers
       public IActionResult Dashboard(){
         return View("Dashboard", "_LayoutCustomer");
       }
-      public IActionResult EnrollinDevice(){
-        return View();
+      public IActionResult Registration(){
+        return View("Registration", "_LayoutCustomer");
       }
       public IActionResult MyDevice(){
-        return View();
+        return View("MyDevice", "_LayoutCustomer");
       }
       public IActionResult ViewDeviceInfo(){
-        return View();
+        return View("ViewDeviceInfo", "_LayoutCustomer");
       }
       public IActionResult Feedback(){
-        return View();
+        return View("Feedback", "_LayoutCustomer");
       }
       
      
