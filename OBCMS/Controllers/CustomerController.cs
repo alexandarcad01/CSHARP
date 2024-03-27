@@ -25,7 +25,9 @@ namespace OBCMS.Controllers
       public IActionResult Feedback(){
         return View("Feedback", "_LayoutCustomer");
       }
-      
+       public IActionResult Login_page(){
+        return View("Login_page", "_LayoutCustomer");
+      }
      
 
     }

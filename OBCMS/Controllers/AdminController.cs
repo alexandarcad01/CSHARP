@@ -43,6 +43,10 @@ namespace OBCMS.Controllers
         {
             return View("Settings", "_LayoutAdmin");
         }
+       public IActionResult Branchhead()
+        {
+            return View("Branchhead", "_LayoutAdmin");
+        }
        
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

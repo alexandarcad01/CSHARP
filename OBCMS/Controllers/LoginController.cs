@@ -3,12 +3,12 @@ using Microsoft.AspNetCore.Mvc;
 using OBCMS.Models;
 using Microsoft.Data.SqlClient;
 
-namespace OBCMS.Controllers;
+namespace OBCMS.Controllers
 
 public class LoginController : Controller
 {
     SqlConnection con=new SqlConnection();
-    SqlCommand cmd=new SqlCommand();
+    SqlCommand com=new SqlCommand();
     SqlDataReader? dr;
 
     private readonly ILogger<LoginController> _logger;

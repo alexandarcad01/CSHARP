@@ -43,7 +43,10 @@ namespace OBCMS.Controllers
         {
             return View("DeviceInfo", "_LayoutBranchhead");
         }
-       
+       public IActionResult Customerpage()
+        {
+            return View("DeviceInfo", "_LayoutBranchhead");
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

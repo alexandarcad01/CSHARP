@@ -37,15 +37,19 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Settings">Settings</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Branchhead" asp-action="dashboard">Branchhead</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div>
+    <div class="container">
+        <main role="main" class="pb-3">
         
             @RenderBody()
-    
+    </main>
     </div>
 
     <footer class="border-top footer text-muted">
