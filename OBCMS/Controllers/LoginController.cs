@@ -4,11 +4,11 @@ using OBCMS.Models;
 using Microsoft.Data.SqlClient;
 
 namespace OBCMS.Controllers
-
+{
 public class LoginController : Controller
 {
     SqlConnection con=new SqlConnection();
-    SqlCommand com=new SqlCommand();
+    SqlCommand cmd=new SqlCommand();
     SqlDataReader? dr;
 
     private readonly ILogger<LoginController> _logger;
@@ -175,4 +175,6 @@ public class LoginController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+}
+
 }
