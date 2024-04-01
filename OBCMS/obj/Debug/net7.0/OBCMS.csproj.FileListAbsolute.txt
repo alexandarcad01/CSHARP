@@ -407,3 +407,7 @@ C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\OBCMS\obj\Debug\net7.0\s
 C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\OBCMS\obj\Debug\net7.0\scopedcss\Views\Shared\_LayoutBranchhead.cshtml.rz.scp.css
 C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\OBCMS\obj\Debug\net7.0\scopedcss\Views\Shared\_LayoutCustomer.cshtml.rz.scp.css
 C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\OBCMS\obj\Debug\net7.0\scopedcss\Views\Shared\_LayoutLogin.cshtml.rz.scp.css
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\OBCMS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\OBCMS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\OBCMS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\alexandarcad01\Desktop\CADBATCH\project\CSHARP\OBCMS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll

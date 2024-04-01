@@ -47,7 +47,7 @@ public class LoginController : Controller
         conStr();
         con.Open();
         cmd.Connection=con;
-        cmd.CommandText="select * from OBCMS_USER_LOGIN where Username=@uname and Password=@pass";
+        cmd.CommandText="select * from OBCMS_USERS_LOGIN  where Username=@uname and Password=@pass";
         cmd.Parameters.AddWithValue("@uname", lmodel.Username);
         cmd.Parameters.AddWithValue("@pass", lmodel.Password);
 
@@ -63,7 +63,7 @@ public class LoginController : Controller
          
 
 
-            if(jobrolecheck=="Branchhead")
+            if(jobrolecheck=="branchhead")
             {
                 
             return RedirectToAction("Dashboard","Branchhead");
@@ -85,9 +85,9 @@ public class LoginController : Controller
         else{
               
                 dr.Close();
-                cmd.CommandText="select * from OBCMS_USER_LOGIN where Username=@u_name and Password=@_pass";
-                cmd.Parameters.AddWithValue("@u_name", lmodel.Username);
-                cmd.Parameters.AddWithValue("@_pass", lmodel.Password);
+                cmd.CommandText="select * from OBCMS_USER_REG where USER_NAME=@u_name and PASSWORD=@_pass";
+                cmd.Parameters.AddWithValue("@u_name", lmodel.USER_NAME);
+                cmd.Parameters.AddWithValue("@_pass", lmodel.PASSWORD);
                 dr=cmd.ExecuteReader();
                 if(dr.Read()){
                     con.Close();
