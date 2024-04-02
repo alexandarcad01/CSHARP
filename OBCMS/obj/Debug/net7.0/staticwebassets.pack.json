@@ -5,12 +5,56 @@
       "PackagePath": "staticwebassets\\OBCMS.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.css"
+    },
+    {
       "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\images\\tick.png",
+      "PackagePath": "staticwebassets\\images\\tick.png"
+    },
+    {
+      "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\js\\jquery-2.1.4.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-2.1.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\js\\jquery.vide.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.vide.min.js"
     },
     {
       "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\js\\site.js",
@@ -243,6 +287,18 @@
     {
       "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\video\\1.jpg",
+      "PackagePath": "staticwebassets\\video\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\video\\1.mp4",
+      "PackagePath": "staticwebassets\\video\\1.mp4"
+    },
+    {
+      "Id": "C:\\Users\\alexandarcad01\\Desktop\\CADBATCH\\project\\CSHARP\\OBCMS\\wwwroot\\video\\1.png",
+      "PackagePath": "staticwebassets\\video\\1.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.OBCMS.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -15,7 +15,7 @@ namespace OBCMS.Models
         public string? PASSWORD { get; set; } 
         public string? CONFIRM_PASSWORD { get; set; }
         public string? EMAIL { get; set; } 
-        public string? PHONENUMBER { get; set; } 
+        public string? PHONE_NUMBER { get; set; } 
         public string? ACCOUNT_TYPE { get; set; } 
 
     }

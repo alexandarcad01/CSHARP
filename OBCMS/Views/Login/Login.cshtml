@@ -1,72 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<!DOCTYPE HTML>
+<html lang="zxx">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Page</title>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <style>
-    body {
-      background-color: #f8f9fa;
-    }
-    .login-container {
-      margin-top: 100px;
-    }
-    .card {
-      border: none;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    .card-header {
-      background-color: #007bff;
-      border-radius: 10px 10px 0 0;
-      color: white;
-      text-align: center;
-    }
-    .btn-custom {
-      background-color: #007bff;
-      border: none;
-      border-radius: 20px;
-      padding: 10px 20px;
-      color: white;
-    }
-    .btn-custom:hover {
-      background-color: #0056b3;
-    }
-  </style>
+	<title>Login Form</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Effective Login Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements"
+	/>
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- Meta tag Keywords -->
+	<!-- css files -->
+	<link rel="stylesheet" href="~/css/style.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+	<link rel="stylesheet" href="~/css/font-awesome.css">
+	<!-- Font-Awesome-Icons-CSS -->
+	<!-- //css files -->
+	<!-- web-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<!-- //web-fonts -->
 </head>
+
 <body>
+	<div class="video-w3l" data-vide-bg="video/1">
+		<!--header-->
+		<div class="header-w3l">
+			<h1>
+				<span>L</span>ogin
+				<span>F</span>orm
+			</h1>
+		</div>
+		<!--//header-->
+		<div class="main-content-agile">
+			<div class="sub-main-w3">
+				<h2>Login Here
+					<i class="fa fa-hand-o-down" aria-hidden="true"></i>
+				</h2>
+				<form action="VerifyLogin" method="post">
+					<div class="pom-agile">
+						<span class="fa fa-user-o" aria-hidden="true"></span>
+						<input placeholder="Username" name="USER_NAME" class="user" type="text" required="">
+					</div>
+					<div class="pom-agile">
+						<span class="fa fa-key" aria-hidden="true"></span>
+						<input placeholder="Password" name="PASSWORD" class="pass" type="password" required="">
+					</div>
+					<div class="sub-w3l">
+						<div class="sub-agile">
+							<input type="checkbox" id="brand1" value="">
+							<label for="brand1">
+								<span></span>Remember me</label>
+						</div>
+						<a href="#">Forgot Password?</a>
+						<div class="clear"></div>
+					</div>
+					<div class="right-w3l">
+						<input type="submit" value="Login">
+					</div>
+				</form>
+			</div>
+		</div>
+		<!--//main-->
+		<!--footer-->
+		<div class="footer">
+			<p>&copy; 2018 Effective Login Form. All rights reserved | Design by
+			</p>
+		</div>
+		<!--//footer-->
+	</div>
 
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-md-4 login-container">
-      <div class="card">
-        <div class="card-header">
-          <h3>Login</h3>
-        </div>
-        <div class="card-body">
-          <form>
-            <div class="form-group">
-              <label for="username">Username</label>
-              <input type="text" class="form-control" id="username" placeholder="Enter username">
-            </div>
-            <div class="form-group">
-              <label for="password">Password</label>
-              <input type="password" class="form-control" id="password" placeholder="Enter password">
-            </div>
-            <button type="submit" class="btn btn-custom btn-block">Login</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Bootstrap JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!-- js -->
+	<script src="~/js/jquery-2.1.4.min.js"></script>
+	<script src="~/js/jquery.vide.min.js"></script>
+	<!-- //js -->
 
 </body>
+
 </html>

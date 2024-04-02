@@ -47,9 +47,9 @@ public class LoginController : Controller
         conStr();
         con.Open();
         cmd.Connection=con;
-        cmd.CommandText="select * from OBCMS_USERS_LOGIN  where Username=@uname and Password=@pass";
-        cmd.Parameters.AddWithValue("@uname", lmodel.Username);
-        cmd.Parameters.AddWithValue("@pass", lmodel.Password);
+        cmd.CommandText="select * from OBCMS_USERS_LOGIN  where USER_NAME=@uname and PASSWORD=@pass";
+        cmd.Parameters.AddWithValue("@uname", lmodel.USER_NAME);
+        cmd.Parameters.AddWithValue("@pass", lmodel.PASSWORD);
 
         dr=cmd.ExecuteReader();
 
@@ -110,9 +110,7 @@ public class LoginController : Controller
     }
 
 
-    void conStr1(){
-         con.ConnectionString="data source=192.168.1.240\\SQLEXPRESS; database=CAD_OBCMS; User ID=CADBATCH01; Password=CAD@123pass; TrustServerCertificate=True; ";
-    }
+   
     
     [HttpPost]
      public IActionResult Register(RegisterModel rmodel)
@@ -132,17 +130,17 @@ public class LoginController : Controller
 
 
         //Method 02
-        conStr1();
+        conStr();
         con.Open();
         cmd.Connection=con;
-        cmd.CommandText="insert into OBCMS_USER_REG(FIRST_NAME,LAST_NAME,USER_NAME,PASSWORD,CONFIRM_PASSWORD,EMAIL,PHONENUMBER,ACCOUNT_TYPE) values (@firstname,@lastname,@username,@password,@confirmpassword,@email,@phonenumber,@accounttype) ";
+        cmd.CommandText="insert into OBCMS_USER_REG(FIRST_NAME,LAST_NAME,USER_NAME,PASSWORD,CONFIRM_PASSWORD,EMAIL,PHONE_NUMBER,ACCOUNT_TYPE) values (@firstname,@lastname,@username,@password,@confirmpassword,@email,@phonenumber,@accounttype)";
         cmd.Parameters.AddWithValue("@firstname",rmodel.FIRST_NAME);
         cmd.Parameters.AddWithValue("@lastname",rmodel.LAST_NAME);
         cmd.Parameters.AddWithValue("@username",rmodel.USER_NAME);
         cmd.Parameters.AddWithValue("@password",rmodel.PASSWORD);
         cmd.Parameters.AddWithValue("@confirmpassword",rmodel.CONFIRM_PASSWORD);
         cmd.Parameters.AddWithValue("@email",rmodel.EMAIL);
-        cmd.Parameters.AddWithValue("@phonenumber",rmodel.PHONENUMBER);
+        cmd.Parameters.AddWithValue("@phonenumber",rmodel.PHONE_NUMBER);
         cmd.Parameters.AddWithValue("@accounttype",rmodel.ACCOUNT_TYPE);
 
         int rowAffected=cmd.ExecuteNonQuery();
