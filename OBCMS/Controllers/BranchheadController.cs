@@ -43,9 +43,9 @@ namespace OBCMS.Controllers
         {
             return View("DeviceInfo", "_LayoutBranchhead");
         }
-       public IActionResult Customerpage()
+       public IActionResult Customer()
         {
-            return View("DeviceInfo", "_LayoutBranchhead");
+            return View("Customer", "_LayoutCustomer");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
